@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>activity-indicator</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-1-SNAPSHOT</version>
     <name>Activity Indicator</name>
     <description>WebJar for Activity Indicator</description>
     <url>http://webjars.org</url>
@@ -24,7 +24,7 @@
         <requirejs>
             {
                 "paths": {
-                    "activity-indicator": "activity-indicator"
+                    "activity-indicator": "jquery.activity-indicator"
                 },
                 "shim": {
                     "activity-indicator": ["jquery"]
